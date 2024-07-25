@@ -1,7 +1,6 @@
-version: 2
-sources:
-
-- name: staging_weather
+- name: flights
   schema: clear_skies
   tables:
-    - name: weather_daily_raw
+    - name: flights
+    - name: airports
+    - name: regions
