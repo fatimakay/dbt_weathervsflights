@@ -1,1 +1,1 @@
-select * from {{source('flights', 'flights')}}
+select * from {{source('staging_flights', 'flights')}}
