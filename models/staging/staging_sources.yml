@@ -1,3 +1,11 @@
+version: 2
+sources:
+
+- name: staging_weather
+  schema: clear_skies
+  tables:
+    - name: weather_daily_raw
+
 - name: flights
   schema: clear_skies
   tables:
