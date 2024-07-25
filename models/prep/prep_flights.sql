@@ -24,6 +24,6 @@ avg_wind_speed_kmh,
 wind_peakgust_kmh,
 avg_pressure_hpa
 from {{ref('staging_weather_daily')}} w
-left join {{ref('staging_flights')}} f 
+right join {{ref('staging_flights')}} f 
 on f.flight_date = w.date
 and f.origin = w.airport_code 
